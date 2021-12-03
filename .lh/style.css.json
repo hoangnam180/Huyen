@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1638552460899,
@@ -40,6 +40,22 @@
                 {
                     "date": 1638555816353,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,6 @@\n     } \r\n     .text-black-md{\r\n        color: #000 !important;\r\n     } \r\n-    .nav-link{\r\n-        width: 100px;\r\n-    }\r\n+\r\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1638556418910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,6 +36,6 @@\n     } \r\n     .text-black-md{\r\n        color: #000 !important;\r\n     } \r\n-\r\n+    \r\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1638558686665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,14 +28,16 @@\n span.next{\r\n     margin-right: 100px;\r\n }\r\n \r\n-\r\n+.form-control:placeholder{\r\n+    color: #00F490;\r\n+}\r\n @media (min-width: 768px) {\r\n     .bg-white-md{\r\n         background-color: white !important;\r\n     } \r\n     .text-black-md{\r\n        color: #000 !important;\r\n\\ No newline at end of file\n     } \r\n-    \r\n-} \n+\r\n+} \r\n"
+                },
+                {
+                    "date": 1638558693157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n span.next{\r\n     margin-right: 100px;\r\n }\r\n \r\n-.form-control:placeholder{\r\n+.form-control::placeholder{\r\n     color: #00F490;\r\n }\r\n @media (min-width: 768px) {\r\n     .bg-white-md{\r\n@@ -39,5 +39,5 @@\n     .text-black-md{\r\n        color: #000 !important;\r\n     } \r\n \r\n-} \n\\ No newline at end of file\n+} \r\n"
+                },
+                {
+                    "date": 1638558707842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,8 +30,9 @@\n }\r\n \r\n .form-control::placeholder{\r\n     color: #00F490;\r\n+    font-weight: 500;\r\n }\r\n @media (min-width: 768px) {\r\n     .bg-white-md{\r\n         background-color: white !important;\r\n"
                 }
             ],
             "date": 1638552460899,

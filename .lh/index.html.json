@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 56,
+            "activePatchIndex": 58,
             "patches": [
                 {
                     "date": 1638552498406,
@@ -232,6 +232,14 @@
                 {
                     "date": 1638556055297,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"d-flex flex-column-reverse flex-md-column information-text\">\r\n               <p class=\"lead\">\r\n                 With real meat chunks\r\n               </p>\r\n-              <a class=\"col-4 col-md-3 offset-4 offset-md-0 btn btn-outline-light p-2 mb-1\" href=\"#\" role=\"button\">princing</a>\r\n+              <a class=\"col-4 col-md-4 col-lg-3 offset-4 offset-md-0 btn btn-outline-light p-2 mb-1\" href=\"#\" role=\"button\">princing</a>\r\n               </div>\r\n             </div>\r\n         </div>\r\n         <!-- image yaout -->\r\n"
+                },
+                {
+                    "date": 1638559034486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n <body>\r\n   <div class=\"container\">\r\n     <nav class=\"navbar navbar-expand-lg navbar-light pr-0 pl-0 \">\r\n       <!-- logo -->\r\n-      <a class=\"navbar-brand \" href=\"#\"><img src=\"images/logo-dans-meat-yogurt.svg\" width=\"207.49\" height=\"130.59\"\r\n+      <a class=\"navbar-brand \" href=\"./index.html\"><img src=\"images/logo-dans-meat-yogurt.svg\" width=\"207.49\" height=\"130.59\"\r\n           alt=\"logo\"></a>\r\n       <!-- logo end -->\r\n       <button class=\"navbar-toggler border border-white\" type=\"button\" data-toggle=\"collapse\"\r\n         data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n"
+                },
+                {
+                    "date": 1638559069991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n               <a class=\"dropdown-item\" href=\"#\">Action</a>\r\n             </div>\r\n           </li>\r\n           <li class=\"nav-item border border-white ml-2 px-2 rounded \">\r\n-            <a class=\"nav-link text-center text-white  pr-4 pl-4\" href=\"contact.html\">contact</a>\r\n+            <a class=\"nav-link text-center text-white  pr-4 pl-4\" href=\"./Form.html\">contact</a>\r\n           </li>\r\n         </ul>\r\n       </div>\r\n     </nav>\r\n"
                 }
             ],
             "date": 1638552498406,

@@ -29,7 +29,10 @@ span.next{
     margin-right: 100px;
 }
 
-
+.form-control::placeholder{
+    color: #00F490;
+    font-weight: 500;
+}
 @media (min-width: 768px) {
     .bg-white-md{
         background-color: white !important;
