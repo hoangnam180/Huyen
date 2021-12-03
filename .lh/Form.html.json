@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 83,
+            "activePatchIndex": 88,
             "patches": [
                 {
                     "date": 1638556416087,
@@ -340,6 +340,26 @@
                 {
                     "date": 1638559045019,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n <body>\r\n   <div class=\"container\">\r\n     <nav class=\"navbar navbar-expand-lg navbar-light pr-0 pl-0 \">\r\n       <!-- logo -->\r\n-      <a class=\"navbar-brand \" href=\"#\"><img src=\"images/logo-dans-meat-yogurt.svg\" width=\"207.49\" height=\"130.59\"\r\n+      <a class=\"navbar-brand \" href=\"./index.html\"><img src=\"images/logo-dans-meat-yogurt.svg\" width=\"207.49\" height=\"130.59\"\r\n           alt=\"logo\"></a>\r\n       <!-- logo end -->\r\n       <button class=\"navbar-toggler border border-white\" type=\"button\" data-toggle=\"collapse\"\r\n         data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n"
+                },
+                {
+                    "date": 1638560800440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     </nav>\r\n     <!-- end nav -->\r\n     <div class=\"form\">\r\n         <div class=\"row \">\r\n-            <div class=\"col-11 offset-1 mt-5\"><h1 class=\"text-white mt-5\">Drop us a message</h1></div>\r\n+            <div class=\"col-11 offset-1 col-md-12 offset-md-0 mt-5\"><h1 class=\"text-white mt-5\">Drop us a message</h1></div>\r\n         </div>\r\n         <div class=\"row mt-4\">\r\n             <div class=\"col-12 col-md-5 offset-1\">\r\n                 <div class=\"row flex-column\">\r\n"
+                },
+                {
+                    "date": 1638560863126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     </nav>\r\n     <!-- end nav -->\r\n     <div class=\"form\">\r\n         <div class=\"row \">\r\n-            <div class=\"col-11 offset-1 col-md-12 offset-md-0 mt-5\"><h1 class=\"text-white mt-5\">Drop us a message</h1></div>\r\n+            <div class=\"col-12 offset-0 col-md-11 offset-md-1 mt-5\"><h1 class=\"text-white mt-5\">Drop us a message</h1></div>\r\n         </div>\r\n         <div class=\"row mt-4\">\r\n             <div class=\"col-12 col-md-5 offset-1\">\r\n                 <div class=\"row flex-column\">\r\n"
+                },
+                {
+                    "date": 1638560888785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n         <div class=\"row \">\r\n             <div class=\"col-12 offset-0 col-md-11 offset-md-1 mt-5\"><h1 class=\"text-white mt-5\">Drop us a message</h1></div>\r\n         </div>\r\n         <div class=\"row mt-4\">\r\n-            <div class=\"col-12 col-md-5 offset-1\">\r\n+            <div class=\"col-12 col-md-5 offset-0 offset-md-1\">\r\n                 <div class=\"row flex-column\">\r\n                     <div class=\"col\">\r\n                         <input type=\"email\" class=\"form-control\" placeholder = \"Your Name\">\r\n                     </div>\r\n"
+                },
+                {
+                    "date": 1638561087873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n                         <input type=\"text\" id=\"\" class=\"form-control mt-3\" placeholder=\"Your Email\">\r\n                     </div>\r\n                 </div>\r\n             </div>\r\n-            <div class=\"col-12 offset-1 offset-md-0 mt-3 mt-md-0 col-md-6 \">\r\n+            <div class=\"col-12 mt-3 mt-md-0 col-md-6 \">\r\n                 <textarea style=\"height: 100%;\" class=\"form-control\" placeholder=\"Message\"></textarea>\r\n             </div>\r\n         </div>\r\n         <div class=\"row mt-4 \">\r\n"
+                },
+                {
+                    "date": 1638561123626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n                 <textarea style=\"height: 100%;\" class=\"form-control\" placeholder=\"Message\"></textarea>\r\n             </div>\r\n         </div>\r\n         <div class=\"row mt-4 \">\r\n-            <div class=\"col-6 offset-1\">\r\n+            <div class=\"col-6 offset-0 offset-md-1 \">\r\n                 <button type=\"submit\" class=\"btn bg-transparent border border-white pr-4 pl-4 text-white\">Sign in</button>\r\n             </div>\r\n         </div>\r\n     </div>\r\n"
                 }
             ],
             "date": 1638556416087,
