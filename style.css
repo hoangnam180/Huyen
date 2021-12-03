@@ -1,0 +1,41 @@
+body{
+    background:linear-gradient(to bottom right, #00F490, #00BBC9);
+    background-attachment: fixed;
+    font-size: 1.25rem;
+    font-family:'Open Sans', sans-serif;
+}
+h5.card-title{
+    color: #00F490;
+}
+h1.display-4{
+    font-size: 4.2rem;
+    text-shadow: 1px 0px 1px #000000;
+    font-family: 'Abril Fatface', cursive;
+}
+p.lead{
+    font-size: 2.25rem;
+}
+a.btn-outline-light{
+    font-size: 1.18rem;
+}
+.img-top{
+    
+    border-radius: 10px 0px 0px 10px;
+}
+.text-top{
+    border-radius: 0px 10px 10px 0px ;
+}
+span.next{
+    margin-right: 100px;
+}
+
+
+@media (min-width: 768px) {
+    .bg-white-md{
+        background-color: white !important;
+    } 
+    .text-black-md{
+       color: #000 !important;
+    } 
+
+} 

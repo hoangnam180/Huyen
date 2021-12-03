@@ -1,0 +1,50 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1638552460899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1638552522551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,8 @@\n }\r\n \r\n @media only screen and (min-width: 400px) and (max-width: 768px){\r\n     .lap{\r\n-        background-color: white;\r\n         color:black;\r\n     } \r\n }\r\n /* @media (min-width: 768px) {\r\n"
+                },
+                {
+                    "date": 1638552545051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n }\r\n \r\n @media only screen and (min-width: 400px) and (max-width: 768px){\r\n     .lap{\r\n-        color:black;\r\n+        color:black !important;\r\n     } \r\n }\r\n /* @media (min-width: 768px) {\r\n     .lap{\r\n"
+                },
+                {
+                    "date": 1638552658845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,16 +28,11 @@\n span.next{\r\n     margin-right: 100px;\r\n }\r\n \r\n-@media only screen and (min-width: 400px) and (max-width: 768px){\r\n+\r\n+@media (min-width: 768px) {\r\n     .lap{\r\n-        color:black !important;\r\n+        background-color: white !important;\r\n     } \r\n-}\r\n-/* @media (min-width: 768px) {\r\n-    .lap{\r\n-        background-color: white;\r\n-        color:black;\r\n\\ No newline at end of file\n-    } \r\n     \r\n-}  */\n+} \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1638552699588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n }\r\n \r\n \r\n @media (min-width: 768px) {\r\n-    .lap{\r\n+    .bg-white-md{\r\n         background-color: white !important;\r\n     } \r\n     \r\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1638552775669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,6 +33,9 @@\n @media (min-width: 768px) {\r\n     .bg-white-md{\r\n         background-color: white !important;\r\n     } \r\n+    .text-black-md{\r\n+       color: #000 !important;\r\n+    } \r\n     \r\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1638555763828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,6 +36,8 @@\n     } \r\n     .text-black-md{\r\n        color: #000 !important;\r\n     } \r\n-    \r\n+    .nav-link{\r\n+        width: 135px;\r\n+    }\r\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1638555809486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,7 +37,7 @@\n     .text-black-md{\r\n        color: #000 !important;\r\n     } \r\n     .nav-link{\r\n-        width: 135px;\r\n+        width: 100px;\r\n     }\r\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1638555816353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,6 @@\n     } \r\n     .text-black-md{\r\n        color: #000 !important;\r\n     } \r\n-    .nav-link{\r\n-        width: 100px;\r\n-    }\r\n+\r\n } \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1638552460899,
+            "name": "Commit-0",
+            "content": "body{\r\n    background:linear-gradient(to bottom right, #00F490, #00BBC9);\r\n    background-attachment: fixed;\r\n    font-size: 1.25rem;\r\n    font-family:'Open Sans', sans-serif;\r\n}\r\nh5.card-title{\r\n    color: #00F490;\r\n}\r\nh1.display-4{\r\n    font-size: 4.2rem;\r\n    text-shadow: 1px 0px 1px #000000;\r\n    font-family: 'Abril Fatface', cursive;\r\n}\r\np.lead{\r\n    font-size: 2.25rem;\r\n}\r\na.btn-outline-light{\r\n    font-size: 1.18rem;\r\n}\r\n.img-top{\r\n    \r\n    border-radius: 10px 0px 0px 10px;\r\n}\r\n.text-top{\r\n    border-radius: 0px 10px 10px 0px ;\r\n}\r\nspan.next{\r\n    margin-right: 100px;\r\n}\r\n\r\n@media only screen and (min-width: 400px) and (max-width: 768px){\r\n    .lap{\r\n        background-color: white;\r\n        color:black;\r\n    } \r\n}\r\n/* @media (min-width: 768px) {\r\n    .lap{\r\n        background-color: white;\r\n        color:black;\r\n    } \r\n    \r\n}  */"
+        }
+    ]
+}
